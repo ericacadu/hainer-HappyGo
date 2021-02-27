@@ -26,7 +26,8 @@ body {
   padding: 2% 0; }
 
 .banner {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .banner .main {
     position: relative;
     z-index: 1; }
@@ -102,21 +103,21 @@ body {
       position: relative; }
       .mainContent ul li a {
         margin-top: 15%; }
-    .mainContent ul .item {
-      -webkit-box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01), -16px 16px rgba(0, 0, 0, 0.01), -17px 17px rgba(0, 0, 0, 0.01), -18px 18px rgba(0, 0, 0, 0.01), -19px 19px rgba(0, 0, 0, 0.01), -20px 20px rgba(0, 0, 0, 0.01), -21px 21px rgba(0, 0, 0, 0.01), -22px 22px rgba(0, 0, 0, 0.01);
-              box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01), -16px 16px rgba(0, 0, 0, 0.01), -17px 17px rgba(0, 0, 0, 0.01), -18px 18px rgba(0, 0, 0, 0.01), -19px 19px rgba(0, 0, 0, 0.01), -20px 20px rgba(0, 0, 0, 0.01), -21px 21px rgba(0, 0, 0, 0.01), -22px 22px rgba(0, 0, 0, 0.01);
-      position: relative;
-      z-index: 1; }
-    .mainContent ul .icon {
-      width: 45%;
-      top: -15%;
-      right: -12%;
-      position: absolute;
-      z-index: 2; }
+  .mainContent .item {
+    -webkit-box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01);
+            box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01);
+    position: relative;
+    z-index: 1; }
+  .mainContent .icon {
+    width: 45%;
+    top: -15%;
+    right: -12%;
+    position: absolute;
+    z-index: 2; }
 
 .info .table {
-  -webkit-box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01), -16px 16px rgba(0, 0, 0, 0.01), -17px 17px rgba(0, 0, 0, 0.01), -18px 18px rgba(0, 0, 0, 0.01), -19px 19px rgba(0, 0, 0, 0.01), -20px 20px rgba(0, 0, 0, 0.01), -21px 21px rgba(0, 0, 0, 0.01), -22px 22px rgba(0, 0, 0, 0.01);
-          box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01), -16px 16px rgba(0, 0, 0, 0.01), -17px 17px rgba(0, 0, 0, 0.01), -18px 18px rgba(0, 0, 0, 0.01), -19px 19px rgba(0, 0, 0, 0.01), -20px 20px rgba(0, 0, 0, 0.01), -21px 21px rgba(0, 0, 0, 0.01), -22px 22px rgba(0, 0, 0, 0.01);
+  -webkit-box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01);
+          box-shadow: 0px 0px black, -1px 1px rgba(0, 0, 0, 0.01), -2px 2px rgba(0, 0, 0, 0.01), -3px 3px rgba(0, 0, 0, 0.01), -4px 4px rgba(0, 0, 0, 0.01), -5px 5px rgba(0, 0, 0, 0.01), -6px 6px rgba(0, 0, 0, 0.01), -7px 7px rgba(0, 0, 0, 0.01), -8px 8px rgba(0, 0, 0, 0.01), -9px 9px rgba(0, 0, 0, 0.01), -10px 10px rgba(0, 0, 0, 0.01), -11px 11px rgba(0, 0, 0, 0.01), -12px 12px rgba(0, 0, 0, 0.01), -13px 13px rgba(0, 0, 0, 0.01), -14px 14px rgba(0, 0, 0, 0.01), -15px 15px rgba(0, 0, 0, 0.01);
   margin: 10% auto; }
 
 .info .title {
