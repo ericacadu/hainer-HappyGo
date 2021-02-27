@@ -8,11 +8,8 @@
         max-width: 970px
     .banner
         .ribbon
-            +margin(left 0)
-            max-width: 100%
-            height: 100%
+            +size(auto, 100%)
             img
-                +halign
                 +size(auto, 100%)
                 min-width: 100%
     .mainContent
@@ -21,10 +18,12 @@
             min-width: 1200px
         .frame
             +padding(10px)
-            +flat-shadow(black)
+            +flat-shadow-pc(black)
             z-index: 1
         .cont
             +box-shadow(-10px, 10px, 15px, rgba(black, .2), inset)
+        .item
+            +flat-shadow-pc(black)
         ul
             +size(100%)
             max-width: 900px
@@ -33,6 +32,7 @@
     .info
         .table
             +size(80%)
+            +flat-shadow-pc(black)
         .title
             +size(50%)
         .txt

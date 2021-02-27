@@ -29,6 +29,7 @@ body
 	+padding(2% 0)
 .banner
 	+relative(0)
+	overflow: hidden
 	.main
 		+relative(0)
 		z-index: 1
@@ -78,14 +79,14 @@ body
 			+relative(0)
 			a
 				+margin(top 15%)
-		.item
-			+flat-shadow(black)
-			+relative(0)
-			z-index: 1
-		.icon
-			+size(45%)
-			+absolute(right -12% top -15%)
-			z-index: 2
+	.item
+		+flat-shadow(black)
+		+relative(0)
+		z-index: 1
+	.icon
+		+size(45%)
+		+absolute(right -12% top -15%)
+		z-index: 2
 .info
 	.table
 		+flat-shadow(black)
