@@ -20,6 +20,14 @@ body {
     word-break: break-all;
     text-decoration: underline;
     padding: 0 3px; }
+  body .btn {
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear; }
+    body .btn:hover {
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1); }
 
 .header {
   background: #FFFFFF;
